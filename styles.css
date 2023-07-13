@@ -1,0 +1,62 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-description {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+
+  .profile-description ~ ul {
+    list-style-type: none;
+  }
+  
+  .image-profile {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+  }
+  
+  
